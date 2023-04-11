@@ -9,7 +9,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('trained_model 1.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # creating a function for Prediction
 def placement_prediction(Branch, Gender, tenth_percentage, twelfth_percentage, CGPA_Till_sixth, sixth_Sem_SGPA, Internship, Skills):
